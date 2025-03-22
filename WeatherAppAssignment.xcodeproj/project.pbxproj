@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EE5780AD2D6EC847002510A2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EE5780AC2D6EC847002510A2 /* Kingfisher */; };
+		EEF08EBD2D5A039D00184296 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EEF08EBC2D5A039D00184296 /* Alamofire */; };
+		EEFE9CBE2D697F7400A3E4AB /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = EEFE9CBD2D697F7400A3E4AB /* netfox */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EEF08EA32D59BA2D00184296 /* WeatherAppAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -14,7 +20,7 @@
 		EEF08EB52D59BA2E00184296 /* Exceptions for "WeatherAppAssignment" folder in "WeatherAppAssignment" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Configs/Info.plist,
 			);
 			target = EEF08EA22D59BA2D00184296 /* WeatherAppAssignment */;
 		};
@@ -36,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5780AD2D6EC847002510A2 /* Kingfisher in Frameworks */,
+				EEFE9CBE2D697F7400A3E4AB /* netfox in Frameworks */,
+				EEF08EBD2D5A039D00184296 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,9 @@
 			);
 			name = WeatherAppAssignment;
 			packageProductDependencies = (
+				EEF08EBC2D5A039D00184296 /* Alamofire */,
+				EEFE9CBD2D697F7400A3E4AB /* netfox */,
+				EE5780AC2D6EC847002510A2 /* Kingfisher */,
 			);
 			productName = WeatherAppAssignment;
 			productReference = EEF08EA32D59BA2D00184296 /* WeatherAppAssignment.app */;
@@ -107,6 +119,11 @@
 			);
 			mainGroup = EEF08E9A2D59BA2D00184296;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EEF08EBB2D5A039D00184296 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EEFE9CBC2D697F7400A3E4AB /* XCRemoteSwiftPackageReference "netfox" */,
+				EE5780AB2D6EC847002510A2 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EEF08EA42D59BA2D00184296 /* Products */;
 			projectDirPath = "";
@@ -147,12 +164,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8BTP7PF54M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherAppAssignment/Info.plist;
+				INFOPLIST_FILE = WeatherAppAssignment/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,6 +178,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thaethae.WeatherAppAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -175,12 +197,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8BTP7PF54M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherAppAssignment/Info.plist;
+				INFOPLIST_FILE = WeatherAppAssignment/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -188,6 +211,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thaethae.WeatherAppAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,6 +362,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE5780AB2D6EC847002510A2 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+		EEF08EBB2D5A039D00184296 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		EEFE9CBC2D697F7400A3E4AB /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE5780AC2D6EC847002510A2 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE5780AB2D6EC847002510A2 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		EEF08EBC2D5A039D00184296 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEF08EBB2D5A039D00184296 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		EEFE9CBD2D697F7400A3E4AB /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEFE9CBC2D697F7400A3E4AB /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EEF08E9B2D59BA2D00184296 /* Project object */;
 }
