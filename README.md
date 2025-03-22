@@ -17,5 +17,7 @@ A simple Swift app to add and check the weather conditions.
 ![image](https://github.com/user-attachments/assets/107d9ed2-698b-469a-9521-8e0f6c3b5688)
 ![image](https://github.com/user-attachments/assets/0fe0d7d0-eb7e-4bce-8b2a-5e4160fced4c)
 ![image](https://github.com/user-attachments/assets/7ab59768-194d-482b-92b3-270f4486afc6)
+![image](https://github.com/user-attachments/assets/ade83197-8dd6-47e6-b822-bc6718b02d3c)
+
 
 
