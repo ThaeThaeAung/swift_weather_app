@@ -4,7 +4,7 @@ Weather App
 A simple Swift app to add and check the weather conditions.
 
 ## Features:
-- Add, Edit, and Delete cities weather
+- Add, Search, and Delete cities weather data
 - Local storage using CoreData
 - User-friendly UI
 
